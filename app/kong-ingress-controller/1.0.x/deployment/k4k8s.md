@@ -9,14 +9,6 @@ Open-Source Kong Gateway. It consists of two components:
 - **Controller**: a daemon process that integrates with the
   Kubernetes platform and configures Kong.
 
-## Table of content
-
-- [Installers](#installers)
-    - [YAML manifests](#yaml-manifests)
-    - [Kustomize](#kustomize)
-    - [Helm](#helm)
-- [Using Kong for Kubernetes](#using-kong-for-kubernetes)
-
 ## Installers
 
 Kong for Kubernetes can be installed using an installer of
