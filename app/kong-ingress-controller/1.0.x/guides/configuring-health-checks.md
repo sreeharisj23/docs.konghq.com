@@ -350,4 +350,4 @@ Scale the `httpbin` and `ingress-kong` deployments and observe how
 multiple pods change the outcome of the above demo.
 
 Read more about health-checks and ciruit breaker in Kong's
-[documentation](/../../health-checks-circuit-breakers).
+[documentation](/../../latest/health-checks-circuit-breakers).

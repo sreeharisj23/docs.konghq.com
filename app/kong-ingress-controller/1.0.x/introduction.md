@@ -87,5 +87,5 @@ along alongside Kong.
 [deployment]: /kong-ingress-controller/{{page.kong_version}}/deployment/overview
 [design]: /kong-ingress-controller/{{page.kong_version}}/concepts/design
 [faqs]: /kong-ingress-controller/{{page.kong_version}}/faq
-[troubleshooting]: troubleshooting.md
+[troubleshooting]: /kong-ingress-controller/{{page.kong_version}}/troubleshooting
 [guides]: /kong-ingress-controller/{{page.kong_version}}/guides/overview

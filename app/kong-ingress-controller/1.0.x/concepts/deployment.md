@@ -88,7 +88,7 @@ all namespaces and will need access to these resources at the cluster level
 In addition to these, it needs:
 
 - Create a ConfigMap and read and update ConfigMap for to facilitate
-  leader-election. Please read this [document](ha-and-scaling.md)
+  leader-election. Please read this [document](/kong-ingress-controller/{{page.kong_version}}/concepts/ha-and-scaling)
   for more details.
 - Update permission on the Ingress resource to update the status of
   the Ingress resource.

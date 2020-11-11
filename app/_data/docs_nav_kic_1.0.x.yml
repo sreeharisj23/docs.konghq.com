@@ -100,6 +100,8 @@
       url: /guides/using-oidc-plugin
     - text: Rewriting Hosts and Paths
       url: /guides/using-rewrites
+    - text: Preserving Client IP Address
+      url: /guides/preserve-client-ip
 
 - title: References
   icon: /assets/images/icons/documentation/icn-references-color.svg
