@@ -2,15 +2,6 @@
 title: Kong Ingress Controller and ingress class
 ---
 
-## Table of Contents
-
-- [**Introduction**](#introduction)
-- [**Configuring the controller class**](#configuring-the-controller-ingress-class)
-- [**Loading resources by class**](#loading-resouces-by-class)
-- [**When to use a custom class**](#when-to-use-a-custom-class)
-- [**Legacy behavior**](#legacy-behavior)
-- [**Examples**](#examples)
-
 ## Introduction
 
 The Kong Ingress Controller uses ingress classes to filter Kubernetes Ingress

@@ -6,8 +6,6 @@ Kong Ingress Controller is designed to be deployed in a variety of ways
 based on uses-cases. This document explains various components involved
 and choices one can make as per the specific use-case.
 
-## Table of Contents
-
 - [**Kubernetes Resources**](#kubernetes-resources):
   Various Kubernetes resouces required to run Kong Ingress Controller.
 - [**Deployment options**](#deployment-options):

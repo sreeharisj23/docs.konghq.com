@@ -2,20 +2,6 @@
 title: Kong Ingress Controller Documentation
 ---
 
-## Table of contents
-
-- [Concepts](#concepts)
-  - [Architecture](#architecture)
-  - [Custom Resources](#custom-resources)
-  - [Deployment methods](#deployment-methods)
-  - [High-availability and scaling](#high-availability-and-scaling)
-  - [Resource classes](#resource-classes)
-  - [Security](#security)
-- [Guides and Tutorials](#guides-and-tutorials)
-- [Configuration reference](#configuration-reference)
-- [FAQs](#faqs)
-- [Troubleshooting](#troubleshooting)
-
 ## Concepts
 
 ### Architecture

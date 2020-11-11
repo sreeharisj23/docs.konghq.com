@@ -2,17 +2,6 @@
 title: Installing and Configuring
 ---
 
-## Table of Content
-
-- [Getting started](#getting-started)
-- [Overview](#overview)
-    - [Kong for Kubernetes](#kong-for-kubernetes)  
-    - [Kong for kubernetes Enterprise](#kong-for-kubernetes-enterprise)
-    - [Kong for Kubernetes with Kong Enterprise](#kong-for-kubernetes-with-kong-enterprise)
-- [Admission Controller](#admission-controller)  
-  All of the above ship with an Admission Controller built in, which can be enabled
-  to validate resources before they are created.
-
 ## Getting started
 
 If you are getting started with Kong for Kubernetes,

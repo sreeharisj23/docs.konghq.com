@@ -8,15 +8,6 @@ Enterprise plugins and comes with 24x7 support for worry-free
 production deployment.
 This is available to enterprise customers of Kong, Inc. only.
 
-## Table of content
-
-- [Prerequisites](#prerequisites)
-- [Installers](#installers)
-    - [YAML manifests](#yaml-manifests)
-    - [Kustomize](#kustomize)
-    - [Helm](#helm)
-- [Using Kong for Kubernetes Enterprise](#using-kong-for-kubernetes-enterprise)
-
 ## Prerequisites
 
 Before we can deploy Kong, we need to satisfy two

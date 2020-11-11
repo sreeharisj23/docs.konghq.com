@@ -10,12 +10,6 @@ deployed. For the sake of simplicity, we will deploy Kong Enterprise and
 its database in Kubernetes itself. You can safely run them outside
 Kubernetes as well.
 
-## Table of content
-
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Using Kong for Kubernetes](#using-kong-for-kubernetes-with-kong-enterprise)
-
 ## Prerequisites
 
 Before we can deploy Kong Ingress Controller with Kong Enterprise,
