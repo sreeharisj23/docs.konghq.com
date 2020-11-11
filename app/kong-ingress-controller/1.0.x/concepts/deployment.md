@@ -201,7 +201,7 @@ Kong as per the changes it receives from the Kubernetes API server.
 
 Following figure shows how this deployment looks like:
 
-![Kong DB-less](../images/dbless-deployment.png "Kong DB-less architecture")
+![Kong DB-less](/assets/images/docs/kong-ingress-controller/dbless-deployment.png "Kong DB-less architecture")
 
 In this deployment, only one Deployment is required, which is comprised of
 a Pod with two containers, a Kong container which proxies the requests
@@ -221,7 +221,7 @@ is a little different.
 
 Please refer to the below figure:
 
-![Kong with a databse](../images/db-deployment.png "Kong with database")
+![Kong with a databse](/assets/images/docs/kong-ingress-controller/db-deployment.png "Kong with database")
 
 In this type of deployment, there are two types of deployments created,
 separating the control and data flow:
