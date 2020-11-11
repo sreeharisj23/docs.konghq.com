@@ -156,4 +156,4 @@ export PROXY_IP=$(kubectl get -o jsonpath="{.status.loadBalancer.ingress[0].ip}"
 ## Using Kong for Kubernetes Enterprise
 
 Once you've installed Kong for Kubernetes Enterprise, please follow our
-[getting started](../guides/getting-started.md) tutorial to learn more.
+[getting started](/kong-ingress-controller/{{page.kong_version}}/guides/getting-started) tutorial to learn more.

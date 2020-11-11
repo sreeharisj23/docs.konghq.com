@@ -54,7 +54,7 @@ A few custom resources are bundled with Kong Ingress Controller to configure
 settings that are specific to Kong and provide fine-grained control over
 the proxying behavior.
 
-Please refer to [custom resources](custom-resources.md)
+Please refer to the [custom resources](/kong-ingress-controller/{{page.kong_version}}/concepts/custom-resources)
 concept document for details.
 
 ### RBAC permissions
@@ -103,7 +103,7 @@ has the above permissions. The Ingress Controller Pod then has this
 necessary authentication and authorization tokens to communicate with the
 Kubernetes API-server.
 
-[rbac.yaml](../../deploy/manifests/base/rbac.yaml) contains the permissions
+[rbac.yaml](https://github.com/Kong/kubernetes-ingress-controller/blob/main/deploy/manifests/base/rbac.yaml) contains the permissions
 needed for the Ingress Controller to operate correctly.
 
 ### Ingress Controller deployment
@@ -299,7 +299,7 @@ Gateway in-order to take full-advantage of enterprise plugins.
 Kong Ingress Controller is also compatible with the full-blown version of
 Kong Enterprise. This runtime ships with Kong Manager, Kong Portal, and a
 number of other enterprise-only features.
-[This doc](k4k8s-with-kong-enterprise.md) provides a high-level
+[This doc](/kong-ingress-controller/{{page.kong_version}}/concepts/k4k8s-with-kong-enterprise) provides a high-level
 overivew of the architecture.
 
 [k8s-namespace]: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/

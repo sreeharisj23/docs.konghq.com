@@ -60,5 +60,5 @@ configuration:
   kube-proxy but directly to the pod.
 
 For more information on how Kong works with Routes, Services, and Upstreams,
-please see the [Proxy](https://docs.konghq.com/latest/proxy/)
-and [Load balancing](https://docs.konghq.com/latest/loadbalancing/) references.
+please see the [Proxy](/../../latest/proxy/)
+and [Load balancing](/../../latest/loadbalancing/) references.
