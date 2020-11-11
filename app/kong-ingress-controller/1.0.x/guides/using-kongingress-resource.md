@@ -83,28 +83,25 @@ X-Kong-Upstream-Latency: 2
 X-Kong-Proxy-Latency: 1
 Via: kong/1.2.1
 
-
-
 Hostname: echo-d778ffcd8-n9bss
 
 Pod Information:
-	node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
-	pod name:	echo-d778ffcd8-n9bss
-	pod namespace:	default
-	pod IP:	10.60.0.4
+  node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
+  pod name:	echo-d778ffcd8-n9bss
+  pod namespace:	default
+  pod IP:	10.60.0.4
 
 Server values:
-	server_version=nginx: 1.12.2 - lua: 10010
+  server_version=nginx: 1.12.2 - lua: 10010
 
 Request Information:
-	client_address=10.60.1.10
-	method=GET
-	real path=/foo
-	query=
-	request_version=1.1
-	request_scheme=http
-	request_uri=http://35.233.170.67:8080/foo
-<-- clipped -- >
+  client_address=10.60.1.10
+  method=GET
+  real path=/foo
+  query=
+  request_version=1.1
+  request_scheme=http
+  request_uri=http://35.233.170.67:8080/foo
 ```
 
 ## Use KongIngress with Ingress resource
@@ -152,22 +149,22 @@ $ curl -s $PROXY_IP/foo/baz
 Hostname: echo-d778ffcd8-vrrtw
 
 Pod Information:
-	node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
-	pod name:	echo-d778ffcd8-vrrtw
-	pod namespace:	default
-	pod IP:	10.60.0.9
+  node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
+  pod name:	echo-d778ffcd8-vrrtw
+  pod namespace:	default
+  pod IP:	10.60.0.9
 
 Server values:
-	server_version=nginx: 1.12.2 - lua: 10010
+  server_version=nginx: 1.12.2 - lua: 10010
 
 Request Information:
-	client_address=10.60.1.10
-	method=GET
-	real path=/baz
-	query=
-	request_version=1.1
-	request_scheme=http
-	request_uri=http://35.233.170.67:8080/baz
+  client_address=10.60.1.10
+  method=GET
+  real path=/baz
+  query=
+  request_version=1.1
+  request_scheme=http
+  request_uri=http://35.233.170.67:8080/baz
 ```
 
 As you can see, the real path value is `/baz`.
@@ -210,22 +207,22 @@ $ curl $PROXY_IP/foo/baz
 Hostname: echo-d778ffcd8-vrrtw
 
 Pod Information:
-	node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
-	pod name:	echo-d778ffcd8-vrrtw
-	pod namespace:	default
-	pod IP:	10.60.0.9
+  node name:	gke-harry-k8s-dev-default-pool-bb23a167-8pgh
+  pod name:	echo-d778ffcd8-vrrtw
+  pod namespace:	default
+  pod IP:	10.60.0.9
 
 Server values:
-	server_version=nginx: 1.12.2 - lua: 10010
+  server_version=nginx: 1.12.2 - lua: 10010
 
 Request Information:
-	client_address=10.60.1.10
-	method=GET
-	real path=/bar/baz
-	query=
-	request_version=1.1
-	request_scheme=http
-	request_uri=http://35.233.170.67:8080/bar/baz
+  client_address=10.60.1.10
+  method=GET
+  real path=/bar/baz
+  query=
+  request_version=1.1
+  request_scheme=http
+  request_uri=http://35.233.170.67:8080/bar/baz
 
 <-- clipped -->
 ```
@@ -236,17 +233,17 @@ Also, now all the requests will be sent to the same upstream pod:
 
 ```bash
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 $ curl -s $PROXY_IP/foo | grep "pod IP"
-	pod IP:	10.60.0.9
+  pod IP:	10.60.0.9
 ```
 
 
