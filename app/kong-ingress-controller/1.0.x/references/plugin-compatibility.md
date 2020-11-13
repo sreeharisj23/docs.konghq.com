@@ -7,42 +7,42 @@ Enterprise clusters. However, not all plugins are available in DB-less mode.
 Review the table below to check if a plugin you wish to use requires a
 database.
 
-Note that some DB-less compatible plugins [have some limitations or require
+Note that some DB-less compatible plugins have some limitations or require
 non-default configuration for
 [compatibility](/../../latest/db-less-and-declarative-config/#plugin-compatibility).
 
 ## Kong
 
-|  Plugin                 |  Kong                |  Kong (DB-less)      |
-|-------------------------|----------------------|----------------------|
-|  acl                    |  :white_check_mark:  |  :white_check_mark:  |
-|  aws-lambda             |  :white_check_mark:  |  :white_check_mark:  |
-|  azure-functions        |  :white_check_mark:  |  :white_check_mark:  |
-|  basic-auth             |  :white_check_mark:  |  :white_check_mark:  |
-|  bot-detection          |  :white_check_mark:  |  :white_check_mark:  |
-|  correlation-id         |  :white_check_mark:  |  :white_check_mark:  |
-|  cors                   |  :white_check_mark:  |  :white_check_mark:  |
-|  datadog                |  :white_check_mark:  |  :white_check_mark:  |
-|  file-log               |  :white_check_mark:  |  :white_check_mark:  |
-|  hmac-auth              |  :white_check_mark:  |  :white_check_mark:  |
-|  http-log               |  :white_check_mark:  |  :white_check_mark:  |
-|  ip-restriction         |  :white_check_mark:  |  :white_check_mark:  |
-|  jwt                    |  :white_check_mark:  |  :white_check_mark:  |
-|  key-auth               |  :white_check_mark:  |  :white_check_mark:  |
-|  oauth2                 |  :white_check_mark:  |  :x:                 |
-|  post-function          |  :white_check_mark:  |  :white_check_mark:  |
-|  pre-function           |  :white_check_mark:  |  :white_check_mark:  |
-|  prometheus             |  :white_check_mark:  |  :white_check_mark:  |
-|  proxy-cache            |  :white_check_mark:  |  :white_check_mark:  |
-|  rate-limiting          |  :white_check_mark:  |  :white_check_mark:  |
-|  request-termination    |  :white_check_mark:  |  :white_check_mark:  |
-|  request-transformer    |  :white_check_mark:  |  :white_check_mark:  |
-|  response-ratelimiting  |  :white_check_mark:  |  :white_check_mark:  |
-|  response-transformer   |  :white_check_mark:  |  :white_check_mark:  |
-|  syslog                 |  :white_check_mark:  |  :white_check_mark:  |
-|  tcp-log                |  :white_check_mark:  |  :white_check_mark:  |
-|  udp-log                |  :white_check_mark:  |  :white_check_mark:  |
-|  zipkin                 |  :white_check_mark:  |  :white_check_mark:  |
+|  Plugin                 |  Kong                         |  Kong (DB-less)               |
+|-------------------------|-------------------------------|-------------------------------|
+|  acl                    |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  aws-lambda             |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  azure-functions        |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  basic-auth             |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  bot-detection          |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  correlation-id         |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  cors                   |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  datadog                |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  file-log               |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  hmac-auth              |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  http-log               |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  ip-restriction         |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  jwt                    |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  key-auth               |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  oauth2                 |  <i class="fa fa-check"></i>  |  <i class="fa fa-times"></i>  |
+|  post-function          |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  pre-function           |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  prometheus             |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  proxy-cache            |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  rate-limiting          |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  request-termination    |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  request-transformer    |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  response-ratelimiting  |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  response-transformer   |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  syslog                 |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  tcp-log                |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  udp-log                |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
+|  zipkin                 |  <i class="fa fa-check"></i>  |  <i class="fa fa-check"></i>  |
 
 ## Kong Enterprise
 
@@ -50,60 +50,60 @@ There are [two distributions of Kong Enterprise](https://github.com/Kong/kuberne
 `kong-enterprise-k8s` (used with Kong for Kubernetes Enterprise) and
 `kong-enterprise-edition` (used with Kong for Kubernetes with Kong Enterprise).
 
-|  Plugin                          |  Kong for Kubernetes with Kong Enterprise  |  Kong for Kubernetes Enterprise  |
-|----------------------------------|--------------------------------------------|----------------------------------|
-|  acl                             |  :white_check_mark:                        |  :white_check_mark:              |
-|  aws-lambda                      |  :white_check_mark:                        |  :white_check_mark:              |
-|  azure-functions                 |  :white_check_mark:                        |  :white_check_mark:              |
-|  basic-auth                      |  :white_check_mark:                        |  :white_check_mark:              |
-|  bot-detection                   |  :white_check_mark:                        |  :white_check_mark:              |
-|  correlation-id                  |  :white_check_mark:                        |  :white_check_mark:              |
-|  cors                            |  :white_check_mark:                        |  :white_check_mark:              |
-|  datadog                         |  :white_check_mark:                        |  :white_check_mark:              |
-|  file-log                        |  :white_check_mark:                        |  :white_check_mark:              |
-|  hmac-auth                       |  :white_check_mark:                        |  :white_check_mark:              |
-|  http-log                        |  :white_check_mark:                        |  :white_check_mark:              |
-|  ip-restriction                  |  :white_check_mark:                        |  :white_check_mark:              |
-|  jwt                             |  :white_check_mark:                        |  :white_check_mark:              |
-|  key-auth                        |  :white_check_mark:                        |  :white_check_mark:              |
-|  oauth2                          |  :white_check_mark:                        |  :x:                             |
-|  post-function                   |  :white_check_mark:                        |  :white_check_mark:              |
-|  pre-function                    |  :white_check_mark:                        |  :white_check_mark:              |
-|  prometheus                      |  :white_check_mark:                        |  :white_check_mark:              |
-|  proxy-cache                     |  :white_check_mark:                        |  :white_check_mark:              |
-|  rate-limiting                   |  :white_check_mark:                        |  :white_check_mark:              |
-|  request-termination             |  :white_check_mark:                        |  :white_check_mark:              |
-|  request-transformer             |  :white_check_mark:                        |  :white_check_mark:              |
-|  response-ratelimiting           |  :white_check_mark:                        |  :white_check_mark:              |
-|  response-transformer            |  :white_check_mark:                        |  :white_check_mark:              |
-|  syslog                          |  :white_check_mark:                        |  :white_check_mark:              |
-|  tcp-log                         |  :white_check_mark:                        |  :white_check_mark:              |
-|  udp-log                         |  :white_check_mark:                        |  :white_check_mark:              |
-|  zipkin                          |  :white_check_mark:                        |  :white_check_mark:              |
-|  application-registration        |  :white_check_mark:                        |  :x:<sup>1</sup>                 |
-|  canary release                  |  :white_check_mark:                        |  :white_check_mark:              |
-|  collector                       |  :white_check_mark:                        |  :white_check_mark:              |
-|  degraphql                       |  :white_check_mark:                        |  :white_check_mark:              |
-|  exit-transformer                |  :white_check_mark:                        |  :x:                             |
-|  forward-proxy                   |  :white_check_mark:                        |  :white_check_mark:              |
-|  graphql-proxy-cache-advanced    |  :white_check_mark:                        |  :white_check_mark:              |
-|  graphql-rate-limiting-advanced  |  :white_check_mark:                        |  :white_check_mark:              |
-|  jwt-signer                      |  :white_check_mark:                        |  :white_check_mark:              |
-|  kafka-log                       |  :white_check_mark:                        |  :white_check_mark:              |
-|  kafka-upstream                  |  :white_check_mark:                        |  :white_check_mark:              |
-|  key-auth-enc                    |  :white_check_mark:                        |  :x:                             |
-|  ldap-auth-advanced              |  :white_check_mark:                        |  :white_check_mark:              |
-|  mtls-auth                       |  :white_check_mark:                        |  :white_check_mark:              |
-|  oauth2-introspection            |  :white_check_mark:                        |  :white_check_mark:              |
-|  openid-connect                  |  :white_check_mark:                        |  :white_check_mark:              |
-|  proxy-cache-advanced            |  :white_check_mark:                        |  :white_check_mark:              |
-|  rate-limiting-advanced          |  :white_check_mark:                        |  :white_check_mark:              |
-|  request-transformer-advanced    |  :white_check_mark:                        |  :x:<sup>2</sup>                 |
-|  request-validator               |  :white_check_mark:                        |  :white_check_mark:              |
-|  response-transformer-advanced   |  :white_check_mark:                        |  :white_check_mark:              |
-|  route-transformer-advanced      |  :white_check_mark:                        |  :x:                             |
-|  statsd-advanced                 |  :white_check_mark:                        |  :x:<sup>3</sup>                 |
-|  vault-auth                      |  :white_check_mark:                        |  :white_check_mark:              |
+|  Plugin                          |  Kong for Kubernetes with Kong Enterprise  |  Kong for Kubernetes Enterprise           |
+|----------------------------------|--------------------------------------------|-------------------------------------------|
+|  acl                             |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  aws-lambda                      |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  azure-functions                 |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  basic-auth                      |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  bot-detection                   |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  correlation-id                  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  cors                            |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  datadog                         |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  file-log                        |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  hmac-auth                       |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  http-log                        |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  ip-restriction                  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  jwt                             |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  key-auth                        |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  oauth2                          |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i>              |
+|  post-function                   |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  pre-function                    |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  prometheus                      |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  proxy-cache                     |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  rate-limiting                   |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  request-termination             |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  request-transformer             |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  response-ratelimiting           |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  response-transformer            |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  syslog                          |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  tcp-log                         |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  udp-log                         |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  zipkin                          |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  application-registration        |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i><sup>1</sup>  |
+|  canary release                  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  collector                       |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  degraphql                       |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  exit-transformer                |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i>              |
+|  forward-proxy                   |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  graphql-proxy-cache-advanced    |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  graphql-rate-limiting-advanced  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  jwt-signer                      |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  kafka-log                       |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  kafka-upstream                  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  key-auth-enc                    |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i>              |
+|  ldap-auth-advanced              |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  mtls-auth                       |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  oauth2-introspection            |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  openid-connect                  |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  proxy-cache-advanced            |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  rate-limiting-advanced          |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  request-transformer-advanced    |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i><sup>2</sup>  |
+|  request-validator               |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  response-transformer-advanced   |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
+|  route-transformer-advanced      |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i>              |
+|  statsd-advanced                 |  <i class="fa fa-check"></i>               |  <i class="fa fa-times"></i><sup>3</sup>  |
+|  vault-auth                      |  <i class="fa fa-check"></i>               |  <i class="fa fa-check"></i>              |
 
 <sup>1</sup> Only used with Dev Portal
 
