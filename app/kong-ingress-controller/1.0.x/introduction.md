@@ -1,5 +1,5 @@
 ---
-title: Kong Ingress Controller Documentation
+title: Kong Ingress Controller
 ---
 
 ## Concepts
